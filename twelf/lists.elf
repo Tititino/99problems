@@ -1,1 +1,9 @@
+term : type.
+%name term X.
 
+list : type.
+nil  : list.
+cons : term -> list -> list.
+%abbrev cons #.
+%infix right # 6.
+%name list Xs.
